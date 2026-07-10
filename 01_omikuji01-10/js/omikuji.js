@@ -1,4 +1,4 @@
-"use strick";
+"use strict";
 
 let currentAudio = null;
 let omikuji_sound1 = new Audio("./sound/omikuji_sound1.mp3");

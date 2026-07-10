@@ -1,4 +1,4 @@
-"use strick";
+"use strict";
 
 let n = null;
 let prev_n = null;

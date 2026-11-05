@@ -19,7 +19,7 @@ body {
   font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN",
     "Hiragino Sans", Meiryo, sans-serif;
   text-align: center;
-  background-image: url(../img/bg2.jpg); /*★自分で画像を設定すること。*/
+  background-image: url(../img/d.jpg); /*★自分で画像を設定すること。*/
   background-size: cover;
   user-select: none;
 }
@@ -61,17 +61,17 @@ h1 {
     #30c7ec 47%,
     #46aef7 100%
   ); */
-  background: linear-gradient(135deg, #3983b8, #509bec, #23e4f9);
-  color: rgb(37, 22, 148);
+  background: linear-gradient(135deg, #f06bca, #e2a9d8, #f06bca);
+  color: rgb(14, 207, 236);
   font-weight: bold;
   font-style: oblique;
 }
 
 h2 {
   padding-left: 0.5em;
-  border-left: solid 0.5em rgb(4, 45, 116);
+  border-left: solid 0.5em rgb(85, 222, 244);
   text-align: left;
-  color: rgb(37, 22, 148);
+  color: rgb(14, 207, 236);
 }
 
 /*****************************/
@@ -198,10 +198,10 @@ footer > p {
   width: 100%;
   margin: 0px;
   padding: 1px;
-  color: whitesmoke;
+  color: rgb(14, 207, 236);
   font: 1em Rajdhani;
   text-align: center;
-  background: rgba(1, 24, 31, 0.7);
+  background: linear-gradient(135deg, #f06bca, #e2a9d8, #f06bca);
 }
 /*******************************************************/
 /* レスポンシブ対応　メディアクエリを使ってCSSを切り替える */

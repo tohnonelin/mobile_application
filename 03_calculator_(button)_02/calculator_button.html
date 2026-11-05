@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <meta name="description" content="Calculator" />
+
+    <link rel="icon" href="calc.jpg" />
+
+    <!-- Font Awesome Twitter,Facebookなどのアイコン用フォント index.cssよりも前に定義...index.css high priority -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- Font Awesome animation -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome-animation/0.0.10/font-awesome-animation.css"
+      type="text/css"
+      media="all"
+    />
+
+    <link rel="stylesheet" href="css/calculator_button.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="back">
+        <button id="btn99" class="back" type="button" onclick="history.back()">
+          back
+        </button>
+      </div>
+      <header>
+        <h1>Calculator</h1>
+      </header>
+
+      <div class="btn_container">
+        <p type="text" class="f-item" id="calcLog" </p>
+        <p type="text" class="f-item" id="result" </p>
+        <div class="btn_box" id="buttons">
+          <button class="f-item btn" id="cancel"  tabindex="-1" value="C">C</button>
+          <button class="f-item btn" id="div" tabindex="-1" value="/">÷</button>
+          <button class="f-item btn" tabindex="-1" value="7">7</button>
+          <button class="f-item btn" tabindex="-1" value="8">8</button>
+          <button class="f-item btn" tabindex="-1" value="9">9</button>
+          <button class="f-item btn" id="mult" tabindex="-1" value="*">×</button>
+          <button class="f-item btn" tabindex="-1" value="4">4</button>
+          <button class="f-item btn" tabindex="-1" value="5">5</button>
+          <button class="f-item btn" tabindex="-1" value="6">6</button>
+          <button class="f-item btn" id="minus" tabindex="-1" value="-">-</button>
+          <button class="f-item btn" tabindex="-1" value="1">1</button>
+          <button class="f-item btn" tabindex="-1" value="2">2</button>
+          <button class="f-item btn" tabindex="-1" value="3">3</button>
+          <button class="f-item btn" id="plus" tabindex="-1" value="+">+</button>
+          <button class="f-item btn" id="num0" tabindex="-1" value="0">0</button>
+          <button class="f-item btn" id="equal" tabindex="-1" value="=">=</button>
+        </div>
+      </div>
+
+      <footer>
+        <p>
+          <!-- Font Awesome Twitter,Facebookなどのアイコン用フォント -->
+          <!-- https://fontawesome.com/v4.7.0/icons/ でアイコンを探せるよ。 -->
+          <!-- https://saruwakakun.com/html-css/basic/font-awesome#san2 アイコンの設定いろいろ -->
+          <!-- アイコンの大きさ -->
+          <i class="fa fa-cog fa-spin animated font05" aria-hidden="true"></i>
+          <span class="mgn-01"
+            >NANG TOHN ONE LIN</span
+          >
+          <i
+            class="fa fa-bicycle faa-passing animated font06"
+            aria-hidden="true"
+          ></i>
+        </p>
+      </footer>
+    </div>
+
+    <script src="js/calculator_button.js"></script>
+  </body>
+</html>

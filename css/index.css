@@ -69,11 +69,14 @@ h1 {
 
 h2 {
   padding-left: 0.5em;
-  border-left: solid 0.5em rgb(85, 222, 244);
+  border-left: solid 0.5em rgb(55, 208, 55);
   text-align: left;
-  color: rgb(14, 207, 236);
+  color: rgb(177, 22, 164); 
+  /* color: rgb(14, 207, 236); */
 }
-
+span{
+  color: rgb(177, 22, 164); 
+}
 /*****************************/
 /* ページ                    */
 /*****************************/
@@ -198,7 +201,7 @@ footer > p {
   width: 100%;
   margin: 0px;
   padding: 1px;
-  color: rgb(14, 207, 236);
+  color: rgb(177, 22, 164); 
   font: 1em Rajdhani;
   text-align: center;
   background: linear-gradient(135deg, #f06bca, #e2a9d8, #f06bca);
